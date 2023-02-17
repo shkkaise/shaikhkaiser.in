@@ -1,23 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-.bg {
-  background-image: url("BKGND25.jpg");
-    height: 100%;
-}
-</style>
-</head>
-<body>
+<!DOCTYPE html> 
+<html> 
+<body> 
 
-<!-- <div class="bg"></div> -->
+<p>Can my browser play MP4 videos? <span>
+<button onclick="supportType(event,'video/SKA.MP4','avc1.42E01E, mp4a.40.2')" type="button">Test</button>
+</span></p>
 
-<p>This example creates a half page background image. Try to resize the browser window to see how it always will cover 50% of the screen, and that it scales nicely on all screen sizes.</p>
+<p>Can my browser play OGG videos? <span>
+<button onclick="supportType(event,'video/ogg','theora, vorbis')" type="button">Test</button>
+</span></p>
 
-</body>
+<script> 
+function supportType(e,vidType,codType) { 
+  var vid = document.createElement('video');
+  isSupp = vid.canPlayType(vidType+';codecs="'+codType+'"');
+  if (isSupp == "") {
+    isSupp = "No";
+  }
+  e.target.parentNode.innerHTML = "Answer: " + isSupp;
+} 
+</script> 
+
+</body> 
 </html>
