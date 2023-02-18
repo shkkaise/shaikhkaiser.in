@@ -1,0 +1,30 @@
+p{
+   display:inline-block;
+   padding-left: 20px;
+   padding-bottom:0px;
+   padding-right: 300px;
+   }
+
+.pdfile2{
+    display:inline-block;
+padding-left: 50px;
+padding-bottom: 20px;
+padding-right: 200px;
+padding-top: 120px;
+}
+
+.pdfile{
+display:inline-block;
+margin-left: 0%;
+padding-left: 50px;
+padding-bottom: 20px;
+padding-right: 200px;
+padding-top: 20px;
+}
+
+.arrows{
+    display:inline;
+    position: absolute;
+    margin-left: 0%;
+    margin-right: 200px;
+    }
