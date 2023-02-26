@@ -1,0 +1,475 @@
+
+body {
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+h2, h4, h6 {
+  font-family: "Ubuntu-Bold";
+}
+
+h3 {
+  font-family: "Segoe UI";
+  font-size: 2.5rem;
+  position: relative;
+}
+
+h5 {
+  /* margin-left: 50px; */
+  /* padding-right:400px; */
+  /* padding-top: 400px; */
+  position: relative;
+}
+
+h1{
+  position: absolute;
+  margin-left: 0%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Headings */
+
+
+.smallhead {
+margin: 0px 20px 20px 0px;
+display: inline-block ;
+font-family: "Segoe UI";
+font-size: 1.5rem;
+line-height: 1.25;
+padding-top: 450px;
+padding-left: 200px;
+padding-right: 500px;
+/*  padding-left: 30px; */
+position: relative
+}
+
+.liking {
+  margin: 0px 10px 10px 0px;
+  display: inline-block ;
+  font-family: "Segoe UI";
+  font-size: 2.5rem;
+  line-height: 1.25;
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 500px;
+  position: relative
+}
+
+.liking2 {
+  margin: 0px 10px 10px 0px;
+  display: inline-block ;
+  font-family: "Segoe UI";
+  font-size: 2.5rem;
+  line-height: 1.25;
+  padding-top: 20px;
+  padding-left: 500px;
+  padding-right: 500px;
+  position: relative
+}
+
+
+.big-heading {
+  margin-left: 0px;
+  display: inline;
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 20px;
+  /* padding-bottom: 20px; */
+  position: relative;
+  margin-left: 200px;
+ margin-top: 200px;
+}
+.small-heading {
+  display: inline ;
+  font-family: "Segoe UI";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-left: 20px;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 3% 3%;
+}
+
+.container-footer{
+  background-color: #bdc2c2;
+  /* padding-top: 2%; */
+  /* padding: 3% 3%; */
+}
+/* Sections */
+
+.divtitle {
+ display: inline-block;
+ margin-top: 200px;
+ width: 200px;
+ height: 300px;
+}
+
+.explist2{
+  margin-left: 208px;
+text-align: left;
+
+}
+
+.divtitle2 {
+  display: inline-block;
+  }
+
+.video-container {
+    position: relative;
+    padding-bottom: 60%;
+ }
+  
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.colored-section {
+  height: 1000px;
+  width: 100%;
+  background-color: #f4f4ef;
+  color: #2f2e2e;
+}
+
+.red-section {
+  height: 1000px;
+  width: 100%;
+  background-color: #e13d3d;
+}
+
+.yellow-section {
+  height: 1108px;
+  width: 100%;
+  background-color: #ece863;
+  color: #2f2e2e;
+}
+
+.green-section {
+  height: 1000px;
+  width: 100%;
+  background-color: #4dec8a;
+}
+
+.purple-section {
+  padding-top: 5%;
+  height: 1000px;
+  width: 100%;
+  background-color: #59e1dc;
+}
+
+.grey-section {
+  padding-top: 5%;
+  height: 1px;
+  width: 100%;
+  background-color: #bdc2c2;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 0.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+  /* font-family: "Montserrat-Light"; */
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  color: #343434;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 3% 3%;
+}
+
+/* Title Image */
+
+.title-image {
+  padding-top: 0%;
+  width: 100%;
+  height: 100%;
+  transform: rotate(0);
+  position: absolute;
+  right: 0%;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.izo{
+  opacity: .85;
+  transition-duration: 8s;
+  transform:scale(1,1);
+}
+
+.izo:hover {
+  opacity: 1;
+  transition-duration: 8s;
+  transform:scale(1.15,1.15);
+}
+
+/* Features Section */
+
+#skills {
+  position: relative;
+  padding-top: 250px;
+
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgb(18, 5, 196);
+  border-width: 5px;
+  width: 60%;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  position: relative;
+  margin-left: 1px;
+}
+
+.skill-title {
+  font-family: "Segoe UI";
+  font-size: 2.5 rem;
+  line-height: 1;
+  color: #fff;
+  text-align: left;
+}
+
+.edu-title {
+  font-family: "Segoe UI";
+  font-size: 1 rem;
+  line-height: 1;
+  color: #070000;
+  text-align: left;
+}
+
+.skill-title2 {
+  font-family: "Segoe UI";
+  font-size: 1 rem;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+}
+
+.exper-text2 {
+  font-family: "Ubuntu";
+  font-size: 1.5 rem;
+  line-height: 1.5;
+  color: #000000;
+  text-align: center;
+}
+
+.skill_container {
+  /* padding-top: 100px; */
+  width: 100%;
+  background-color: #d2edf0;
+  border-color: #050000;
+  border: 10px;
+  position: relative;
+  }
+
+  .edu_container {
+    /* padding-top: 100px; */
+    width: 60%;
+    text-align: left;
+    background-color: #d2edf0;
+    border-color: #050000;
+    border: 10px;
+    position: relative;
+    }
+
+.skill_cont {
+  /* padding-top: 100px; */
+  width: 100%;
+  background-color: #e13d3d;
+  border-color: #050000;
+  border: 10px;
+  position: relative;
+  margin-bottom: 50%;
+}
+
+.edu2_cont {
+  width: 70%;
+  background-color: #ece863;
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: 20%;
+}
+
+.edu1_cont {
+  /* padding-top: 100px; */
+  width: 100%;
+  background-color: #ece863;
+  border-color: #050000;
+  /* border: 0px; */
+  position: relative;
+  margin-top: 20%;
+}
+
+.edubar_cont {
+  padding : 3% 2.5%;
+  width: 100%;
+  height: 20%;
+  background-color: #ece863;
+  border-color: #050000;
+  position: relative;
+  bottom: 2px;
+  margin-bottom: 50px;
+}
+
+.bar_cont {
+  padding : 3% 2.5%;
+  width: 100%;
+  height: 50%;
+  background-color: #e13d3d;
+  border-color: #050000;
+  position: relative;
+  bottom: 200px;
+  margin-bottom: 100px;
+}
+
+.android {width: 55%; background-color: #eefa10; border-color: #050000; border: 10px;}
+.aix {width: 60%; background-color: #eefa10; border-color: #050000; border: 10px;}
+.wintel {width: 80%; background-color: #eefa10; border-color: #050000; border: 10px;}
+.html {width: 60%; background-color: #eefa10; border-color: #050000; border: 10px;}
+.css {width: 50%; background-color: #eefa10; border-color: #050000; border: 10px;}
+.js {width: 75%; background-color: #eefa10; border-color: #050000; border: 10px;}
+.networks {width: 40%; background-color: #eefa10; border-color: #050000; border: 10px;}
+
+
+
+.android2 {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+.aix2 {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+.mim {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+.bit {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+.ldesk {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+.ccna {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+.mcp {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+.dch {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+.die {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+.ssc {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+
+.feature-box {
+  padding: 3.5%;
+}
+
+.icon {
+  color: #f9f6f6;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #e7ff4c;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #43e682;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.card{
+  background-color: #aaf1ef;
+  height: 200px;
+  width: 500px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
