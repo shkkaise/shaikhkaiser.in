@@ -113,7 +113,7 @@ body {
    font-family: "Segoe UI";
    font-size: 1.5rem;
    line-height: 1.25;
-   padding-top: 150px;
+   padding-top: 50px;
    padding-left: 35px;
    padding-right: 50px;
    /*  padding-left: 30px; */
@@ -220,7 +220,7 @@ body {
     /* Small Image Titel*/
    .divtitle2 {
    
-    padding-top: 10%;
+    padding-top: 2%;
     height: 100%;
     width: 100%;
     position: relative;
