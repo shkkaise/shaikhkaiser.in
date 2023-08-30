@@ -266,16 +266,11 @@ body {
     }
   
     .container-footer{
-      /* background-color: #bdc2c2; */
-      background-color: #000000;
+      background-color: #bdc2c2;
       /* padding-top: 2%; */
       /* padding: 3% 3%; */
-     
     }
     
-    .container-footer,p{
-      color: #59e1dc;
-    }
     
     .video-container {
       position: relative;
@@ -481,7 +476,7 @@ body {
   position: absolute;
   margin-left: 45%;
   margin-bottom: 10px;
-  margin-top: 10%;
+  margin-top: 25%;
   }
   
   .edu1_cont {
@@ -512,10 +507,10 @@ body {
   .android {width: 55%; background-color: #eefa10; border-color: #050000; border: 10px;}
   .aix {width: 60%; background-color: #eefa10; border-color: #050000; border: 10px;}
   .wintel {width: 80%; background-color: #eefa10; border-color: #050000; border: 10px;}
-  .html {width: 75%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .html {width: 60%; background-color: #eefa10; border-color: #050000; border: 10px;}
   .css {width: 50%; background-color: #eefa10; border-color: #050000; border: 10px;}
   .js {width: 75%; background-color: #eefa10; border-color: #050000; border: 10px;}
-  .networks {width: 55%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .networks {width: 40%; background-color: #eefa10; border-color: #050000; border: 10px;}
   
   
   .chatgpt2 {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
@@ -781,14 +776,14 @@ body {
     position: relative;
     }
   
-    /* .edu2_cont {
+    .edu2_cont {
       width: 70%;
       background-color: #ece863;
       position: relative;
       margin-bottom: 10%;
-      margin-top: 10%;
+      margin-top: 20%;
       margin-left: 20%;
-    } */
+    }
   
     .edu3_cont {
       display: none;
