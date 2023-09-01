@@ -39,6 +39,10 @@ body {
     background-color: #f4f4ef;
     color: #2f2e2e;
   } 
+
+  .skill-title img{
+    width: 16px;
+  }
   
   /* #Title */
   /* Title Section */
@@ -506,10 +510,11 @@ body {
   margin-left: 120px;
   }
   
-  .chatgpt {width: 75%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .chatgpt {width: 65%; background-color: #eefa10; border-color: #050000; border: 10px;}
   .github {width: 80%; background-color: #eefa10; border-color: #050000; border: 10px;}
-  .itil {width: 85%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .itil {width: 75%; background-color: #eefa10; border-color: #050000; border: 10px;}
   .android {width: 55%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .ldesk2 {width: 45%; background-color: #eefa10; border-color: #050000; border: 10px;}
   .aix {width: 60%; background-color: #eefa10; border-color: #050000; border: 10px;}
   .wintel {width: 80%; background-color: #eefa10; border-color: #050000; border: 10px;}
   .html {width: 75%; background-color: #eefa10; border-color: #050000; border: 10px;}
