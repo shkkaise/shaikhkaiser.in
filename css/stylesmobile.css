@@ -1,0 +1,860 @@
+body {
+    font-family: "Ubuntu";
+    text-align: center;
+  }
+  /* Containers */
+  .container-fluid{
+    padding: 3% 3%;
+  }
+  
+  .container-title{
+    padding: 3% 3%;
+    background-color: rgb(255, 255, 255);
+  }
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 0.2rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+    /* font-family: "Montserrat-Light"; */
+  }
+  
+  .colored-section {
+    height: 1000px;
+    width: 100%;
+    background-color: #f4f4ef;
+    color: #2f2e2e;
+  } 
+  
+  /* #Title */
+  /* Title Section */
+  
+  #title {
+    color: #343434;
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 3% 3%;
+  }
+  
+  /* Title Image */
+  
+  .title-image {
+    /* padding-top: 0%; */
+    width: 100%;
+    height: 100%;
+    display:inline-flexbox;
+    position:static;
+    }
+  
+  .oh {
+    overflow: hidden;
+  }
+  
+  .izo{
+    opacity: .85;
+    transition-duration: 8s;
+    transform:scale(1,1);
+  }
+  
+  .izo:hover {
+    opacity: 1;
+    transition-duration: 8s;
+    transform:scale(1.15,1.15);
+  }
+  
+  h2, h4 {
+    font-family: "Ubuntu-Bold"
+  }
+  
+  
+  h6 {
+      font-family: "Segoe UI"
+    }
+  
+  h3 {
+    font-family: "Segoe UI";
+    font-size: 2.5rem;
+    position: relative;
+  }
+  
+  h5 {
+   margin-left: 50px;
+    padding-right:100px;
+    padding-top: 40px;
+    position: relative;
+  }
+  h1{
+    position: absolute;
+    margin-left: 0%;
+  }
+  p {
+     color: #8f8f8f;
+   }
+     /* Headings */
+  .smallhead {
+   margin: 0px 20px 20px 0px;
+   display: inline-block ;
+   font-family: "Segoe UI";
+   font-size: 1.5rem;
+   line-height: 1.25;
+   padding-top: 150px;
+   padding-left: 35px;
+   padding-right: 50px;
+   /*  padding-left: 30px; */
+   position: relative
+   }
+  .liking {
+    margin: 0px 5px 5px 0px;
+    display: inline-block ;
+    font-family: "Segoe UI";
+    font-size: 2.5rem;
+    line-height: 1.25;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative
+  }
+  .liking2 {
+    margin: 0px 10px 10px 0px;
+    display: inline-block ;
+    font-family: "Segoe UI";
+    font-size: 2.5rem;
+    line-height: 1.25;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative
+  }
+  
+  .big-heading {
+    display: inline;
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 150px;
+   }
+  
+   /* .smallscreen { 
+    display: none;
+   }*/
+  
+  .small-heading {
+     display: inline ;
+     font-family: "Segoe UI";
+     font-size: 3.5rem;
+     line-height: 1.5;
+     padding-left: 20px;
+     position: relative;
+     margin-left: 10px;
+     margin-top: 50px;
+   }
+  
+  
+   .divtitle3 {
+    display: inline-block;
+    margin-top: 200px;
+    width: 200px;
+    height: 300px;
+   }
+   
+   /* BigIMage Titlepage
+   
+   .divtitle {
+   display: inline-block;
+   margin-top: 200px;
+   width: 200px;
+   height: 300px;
+  }
+  
+  .explist2{
+    margin-left: 208px;
+  text-align: left;
+  
+  }
+  
+  .divtitle2 {
+    display: inline-block;
+    }
+  
+    /* */
+   .divtitle4 {
+     display: inline-block;
+     }
+   
+   .divtitle1 {
+    /* display: inline-block; */
+    /* background-color: rgb(192, 189, 189); */
+    display: inline;
+    margin-top: 10px;
+    width: 400px;
+    height: 610px;
+   }
+   
+   
+   .explist1{
+    margin-left: 120px;
+    text-align: left;
+    line-height: .8 rem;
+    }
+  
+    /* Small Image Titel*/
+   .divtitle2 {
+   
+    padding-top: 10%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+     }
+     
+  
+     .colored-section {
+      height: 1000px;
+      width: 100%;
+      background-color: #fff;
+      color: #2f2e2e;
+    } 
+    
+    .red-section {
+      height: 100%;
+      width: 100%;
+      background-color: #e13d3d;
+    }
+    
+    .yellow-section {
+      height: 100%;
+      width: 100%;
+      background-color: #ece863;
+      color: #2f2e2e;
+    }
+    
+    .green-section {
+      height: 100%;
+      width: 100%;
+      background-color: #4dec8a;
+    }
+    
+    
+    .purple-section {
+      padding-top: 5%;
+      height: 100%;
+      width: 100%;
+      background-color: #59e1dc;
+      padding-bottom: 15%;
+    }
+  
+    .container-footer{
+      background-color: #bdc2c2;
+      /* padding-top: 2%; */
+      /* padding: 3% 3%; */
+    }
+    
+    
+    .video-container {
+      position: relative;
+      padding-bottom: 60%;
+      padding-right: 97.2%; 
+      /* display: block;  */
+    }
+    
+  .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+  }
+  
+    .grey-section {
+      padding-top: 5%;
+      height: 1px;
+      width: 100%;
+      background-color: #bdc2c2;
+    }
+    
+    .card{
+      background-color: #aaf1ef;
+      height: 200px;
+      width: 500px;
+    }
+    
+    #press {
+      background-color: #ef8172;
+      padding-bottom: 3%;
+    }
+    
+    .press-logo {
+      width: 15%;
+      margin: 20px 20px 50px;
+    }
+    
+    /* Pricing Section */
+    
+    #pricing {
+      padding: 100px;
+    }
+    
+    .price-text {
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+    
+    .pricing-column {
+      padding: 3% 2%;
+    }
+  
+  #skills {
+  position: relative;
+  padding-top: 10px;
+  
+  }
+  
+  
+  #testimonials {
+    background-color: #43e682;
+  }
+  
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  .explist2{
+    margin-left: 203px;
+    text-align: left;
+    }
+  
+    .explist5{
+      margin-left: 205px;
+      text-align: left;
+      }
+  
+    .explist3{
+        margin-left: 205px;
+        text-align: left;
+        }
+    
+    .explist4{
+          margin-left: 275px;
+          text-align: left;
+          }
+  .mylist{
+    padding-left: 120px;
+    }
+  
+  hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgb(18, 5, 196);
+  border-width: 5px;
+  width: 60%;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  position: relative;
+  margin-left: 1px;
+  }
+  
+  .skill-title {
+  font-family: "Segoe UI";
+  font-size: 2.5 rem;
+  line-height: 1;
+  color: #fff;
+  margin-left: 30px;
+  text-align: left;
+  }
+  
+  .edu-title {
+  font-family: "Segoe UI";
+  font-size: 1 rem;
+  line-height: 1;
+  color: #030007;
+  text-align: left;
+  }
+  
+  .skill-title2 {
+  font-family: "Segoe UI";
+  font-size: 1 rem;
+  line-height: 1;
+  color: #fff;
+  margin-left: 5px;
+  text-align: center;
+  }
+  
+  .edu-title2 {
+    font-family: "Segoe UI";
+    font-size: 1 rem;
+    line-height: 1;
+    color: rgb(18, 5, 196);
+    margin-left: 5px;
+    text-align: center;
+    }
+  
+  .exper-text2 {
+  font-family: "Ubuntu";
+  font-size: 1.5 rem;
+  line-height: 1.5;
+  color: #000000;
+  text-align: center;
+  }
+  
+  .skill_container {
+  /* padding-top: 100px; */
+  width: 80%;
+  background-color: #d2edf0;
+  border-color: #050000;
+  border: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+  position: relative;
+  }
+  
+  .edu_container {
+    /* padding-top: 100px; */
+    width: 60%;
+    text-align: left;
+    background-color: #d2edf0;
+    border-color: #050000;
+    border: 10px;
+    position: relative;
+    }
+  
+  .skill_cont {
+  padding-top: 80px;
+  width: 100%;
+  background-color: #e13d3d;
+  border-color: #050000;
+  border: 10px;
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  }
+  
+  .bar_cont {
+  /* padding : 3% 2.5%; */
+  width: 100%;
+  height: 50%;
+  background-color: #e13d3d;
+  border-color: #050000;
+  position: relative;
+  bottom: 5px;
+  margin-bottom: 15px;
+  }
+  
+  
+  .edu2_cont {
+  width: 50%;
+  background-color: #ece863;
+  position: absolute;
+  margin-left: 45%;
+  margin-bottom: 10px;
+  margin-top: 25%;
+  }
+  
+  .edu1_cont {
+  /* padding-top: 100px; */
+  width: 100%;
+  background-color: #ece863;
+  border-color: #050000;
+  /* border: 0px; */
+  position: relative;
+  margin-top: 20%;
+  }
+  
+  .edubar_cont {
+  padding : 3% 2.5%;
+  width: 50%;
+  height: 20%;
+  background-color: #ece863;
+  border-color: #050000;
+  position: relative;
+  bottom: 2px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  }
+  
+  .android {width: 55%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .aix {width: 60%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .wintel {width: 80%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .html {width: 60%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .css {width: 50%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .js {width: 75%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  .networks {width: 40%; background-color: #eefa10; border-color: #050000; border: 10px;}
+  
+  
+  
+  .android2 {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+  .aix2 {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+  .mim {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+  .bit {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+  .ldesk {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+  .ccna {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+  .mcp {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+  .dch {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+  .die {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+  .ssc {width: 100%; background-color: #ece863; border-color: #050000; border: 10px;}
+  
+  .feature-box {
+  padding: .2%;
+  }
+  
+  .icon2{
+    display: none;
+  }
+  
+  .icon1 {
+  color: #f9f6f6;
+  margin-bottom: 1rem;
+  }
+  
+  .icon1:hover {
+  color: #e7ff4c;
+  }
+  
+  
+  .icon3 {
+    color: rgb(18, 5, 196);
+    margin-bottom: 1rem;
+    }
+    
+  .icon3:hover {
+    color: #070707;
+    }
+  
+    .edu3_cont {
+      display: none;
+    }
+  
+    .card{
+      background-color: #aaf1ef;
+      height: 200px;
+      width: 500px;
+    }
+    
+    #press {
+      background-color: #ef8172;
+      padding-bottom: 3%;
+    }
+    
+    .press-logo {
+      width: 15%;
+      margin: 20px 20px 50px;
+    }
+    
+    /* Pricing Section */
+    
+    #pricing {
+      padding: 100px;
+    }
+    
+    .price-text {
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+    
+    .pricing-column {
+      padding: 3% 2%;
+    }
+   
+   /* Media Query - Changes */
+   @media (max-width: 768px) {
+  
+    #title {
+      text-align: left;
+    }
+  
+    /* .largescreen { 
+      display: none;
+     }*/
+  
+    h2, h4 {
+      font-family: "Ubuntu-Bold"
+    }
+  
+  
+    h6 {
+      font-family: "Segoe UI"
+    }
+  
+    h3 {
+      font-family: "Segoe UI";
+      font-size: 1.5rem;
+      position: relative;
+    }
+    
+    .liking {
+      margin: 0px 5px 5px 0px;
+      display: inline-block ;
+      font-family: "Segoe UI";
+      font-size: 1.5rem;
+      line-height: 1;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      position: absolute
+    }
+  
+    .skill-title {
+      font-family: "Segoe UI";
+      font-size: .8rem;
+      line-height: .8;
+      color: #fff;
+      margin-left: 60px;
+      text-align: left;
+    }
+  
+    .skill_container {
+      /* padding-top: 100px; */
+      width: 70%;
+      background-color: #d2edf0;
+      border-color: #050000;
+      border: 5px;
+      margin-top: 5px;
+      margin-left: 60px;
+      position: relative;
+      }
+      
+    .icon2 {
+        color: #f9f6f6;
+        margin-bottom: .8 rem;
+        }
+        
+      .icon2:hover {
+        color: #e7ff4c;
+        }
+  
+        /* .icon1 { 
+          display: none;
+        }*/
+    
+      .skill-title2 {
+        font-family: "Segoe UI";
+        font-size: 2rem;
+        line-height: .8rem;
+        color: #fff;
+        margin-left: 1px;
+        text-align: center;
+        }
+        
+      .skill_cont {
+          /* padding-top: 100px; */
+          width: 100%;
+          background-color: #e13d3d;
+          border-color: #050000;
+          border: 2px;
+          position: relative;
+          margin-top: 5%;
+          /* margin-left: 10px; */
+          margin-bottom: 15%;
+          }
+  
+          .bar_cont {
+            /* padding : 3% 2.5%; */
+            width: 100%;
+            height: 50%;
+            background-color: #e13d3d;
+            border-color: #050000;
+            position: relative;
+            bottom: 5px;
+            margin-bottom: 5px;
+            }
+  
+            #testimonials {
+              background-color: #43e682;
+            }
+            
+            .testimonial-text {
+              font-size: 2rem;
+              line-height: .8;
+            }
+            
+            .testimonial-image {
+              width: 10%;
+              border-radius: 100%;
+              margin: 20px;
+            }
+            .small-heading {
+              display: inline ;
+              font-family: "Segoe UI";
+              font-size: 1.6rem;
+              line-height: .8;
+              padding-left: 20px;
+              position: relative;
+              margin-left: 10px;
+              margin-top: 20px;
+            }
+  
+            .liking2 {
+              margin: 0px 10px 10px 0px;
+              display: inline-block ;
+              font-family: "Segoe UI";
+              font-size: 1.1rem;
+              line-height: .8;
+              padding-top: 20px;
+              padding-left: 50px;
+              padding-right: 50px;
+              position: relative
+            }
+  
+            .liking {
+              margin: 0px 10px 10px 0px;
+              display: inline-block ;
+              font-family: "Segoe UI";
+              font-size: 1.1rem;
+              line-height: 1.2rem;
+              padding-top: 20px;
+              padding-left: 50px;
+              padding-right: 50px;
+              position: relative
+            }
+  
+            .explist2{
+            margin-left: 5px;
+            text-align: left;
+            }
+  
+            .explist5{
+              margin-left: 5px;
+              text-align: left;
+              }
+  
+            .explist3{
+                margin-left: 1px;
+                text-align: left;
+                }
+            
+            .explist4{
+                  position: relative;
+                  margin-left: 1px;
+                  text-align: left;
+                  }
+  
+            .explist1{
+              margin-left: 18px;
+              text-align: left;
+              font-size: .7 rem;
+              line-height: .8 rem;
+              }
+  
+    h5 {
+    margin-left: 50px;
+    padding-right:10px;
+    padding-top: 10px;
+    position: relative;
+    }
+  
+    .edu2_cont {
+      width: 70%;
+      background-color: #ece863;
+      position: relative;
+      margin-bottom: 10%;
+      margin-top: 20%;
+      margin-left: 20%;
+    }
+  
+    .edu3_cont {
+      display: none;
+    }
+    
+    .edu1_cont {
+      /* padding-top: 100px; */
+      width: 100%;
+      background-color: #ece863;
+      border-color: #050000;
+      /* border: 0px; */
+      position: relative;
+      margin-top: 20%;
+    }
+    
+    .edubar_cont {
+      padding : 3% 2.5%;
+      width: 100%;
+      height: 20%;
+      background-color: #ece863;
+      border-color: #050000;
+      position: relative;
+      bottom: 2px;
+      margin-bottom: 50px;
+      margin-left: 10px;
+    }
+  
+    .edu_container {
+      margin-left: 20%;
+      width: 60%;
+      text-align: left;
+      background-color: #d2edf0;
+      border-color: #050000;
+      border: 10px;
+      position: relative;
+      }
+  
+      .edu-title {
+        margin-left: 20%;
+        font-family: "Segoe UI";
+        font-size: 1 rem;
+        line-height: 1;
+        color: #070000;
+        text-align: left;
+        }
+  
+        hr{
+          border-style: none;
+          border-top-style: dotted;
+          border-color: rgb(18, 5, 196);
+          border-width: 5px;
+          width: 60%;
+          margin-top: 5px;
+          margin-bottom: 4px;
+          position: relative;
+          margin-left: 20%;
+          }
+  
+          .card{
+            background-color: #aaf1ef;
+            height: 400px;
+            width: 500px;
+          }
+  
+          .video-container {
+            position: relative;
+            padding-bottom: 60%;
+            padding-right: 97.2%; 
+            /* display: block;  */
+          }
+          
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+        }
+    
+  }

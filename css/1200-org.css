@@ -387,13 +387,6 @@ body {
   order: 1;
 }
 
-.pdiv1 {
-  background-color: #f7f5f2c8;
-  padding-top: 1rem;
-  padding-bottom: 5rem;
-  max-width: 100%;
-}
-
 .pdficon {
   background-color: rgb(231, 232, 249);
   display: flex;
